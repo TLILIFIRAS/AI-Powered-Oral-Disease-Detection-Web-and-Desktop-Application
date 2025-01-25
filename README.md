@@ -15,7 +15,15 @@ This  application uses artificial intelligence to detect various oral diseases t
 - **User-friendly Interface**: Clean and intuitive web interface
 
 ## Web Application 
+![App Screenshot](3.png)
+![App Screenshot](4.png)
+![App Screenshot](5.png)
+
+
+
 ## Desktop Application
+![App Screenshot](1.png)
+![App Screenshot](2.png)
 
 ## Technologies Used
 - **Backend**: Python, Flask
