@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detection Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Detection Result</h1>
+        <div class="result-container">
+            <img src="{{ url_for('static', filename='results/result_image.jpg') }}" alt="Detection Result">
+            <div class="detection-results">
+                {% for detection in detections %}
+                    <div class="detection-item">
+                        <div class="detection-header">
+                            <span class="disease-name">{{ detection.disease }}</span>
+                            <span class="confidence-value">{{ detection.confidence }}%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: {{ detection.confidence }}%"></div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        <a href="{{ url_for('upload_file') }}" class="back-button">Upload Another Image</a>
+    </div>
+</body>
+</html> 

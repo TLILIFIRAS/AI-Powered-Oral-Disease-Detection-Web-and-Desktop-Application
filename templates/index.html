@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Oral Disease Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Oral Disease Detector</h1>
+        <div class="detection-options">
+            <div class="option-card">
+                <h2>Upload Image</h2>
+                <form method="post" enctype="multipart/form-data">
+                    <div class="upload-area">
+                        <input type="file" name="file" id="file" accept=".png,.jpg,.jpeg" required>
+                        <label for="file">Choose an image or drag it here</label>
+                    </div>
+                    <button type="submit">Detect Diseases</button>
+                </form>
+            </div>
+            
+            <div class="option-card">
+                <h2>Use Webcam</h2>
+                <p>Start real-time detection using your webcam</p>
+                <a href="{{ url_for('webcam') }}" class="webcam-button">Launch Webcam</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

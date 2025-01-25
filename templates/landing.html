@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Oral Disease Detection System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="landing-page">
+    <div class="hero-section">
+        <div class="hero-content">
+            <h1>AI-Powered Oral Disease Detection</h1>
+            <p class="hero-subtitle">Advanced detection system for early diagnosis of oral health issues</p>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <section class="features-section">
+            <h2>Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📸</div>
+                    <h3>Image Upload</h3>
+                    <p>Upload dental images for instant analysis and detection</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎥</div>
+                    <h3>Real-time Detection</h3>
+                    <p>Use webcam for live oral disease detection</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎯</div>
+                    <h3>High Accuracy</h3>
+                    <p>Powered by advanced YOLO AI model</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Instant Results</h3>
+                    <p>Get immediate detection results with confidence scores</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="diseases-section">
+            <h2>Detectable Conditions</h2>
+            <div class="diseases-grid">
+                <div class="disease-card">
+                    <h3>Dental Caries</h3>
+                    <p>Detection of tooth decay and cavities in various stages</p>
+                </div>
+                <div class="disease-card">
+                    <h3>Gingivitis</h3>
+                    <p>Identification of gum inflammation and early periodontal disease</p>
+                </div>
+                <div class="disease-card">
+                    <h3>Tooth Discoloration</h3>
+                    <p>Analysis of abnormal tooth coloring and staining</p>
+                </div>
+                <div class="disease-card">
+                    <h3>Oral Ulcers</h3>
+                    <p>Detection of mouth sores and ulcerative conditions</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="cta-section">
+            <h2>Ready to Start?</h2>
+            <p>Begin detecting oral health issues with our AI-powered system</p>
+            <a href="{{ url_for('upload_file') }}" class="cta-button">Launch Application</a>
+        </div>
+    </div>
+</body>
+</html> 

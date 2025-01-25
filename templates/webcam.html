@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Real-time Oral Disease Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Real-time Detection</h1>
+        <div class="webcam-container">
+            <img src="{{ url_for('video_feed') }}" alt="Webcam Feed">
+        </div>
+        <div class="button-container">
+            <a href="{{ url_for('stop_webcam') }}" class="back-button">Stop Webcam</a>
+        </div>
+    </div>
+</body>
+</html> 
