@@ -31,4 +31,4 @@ This  application uses artificial intelligence to detect various oral diseases t
 - **Frontend**: HTML, CSS , Javascript
 - **Image Processing**: OpenCV
 - **Deep Learning**: PyTorch (via Ultralytics YOLO)
-- **Desktop ** : PyQt6
+- **Desktop**: PyQt6
