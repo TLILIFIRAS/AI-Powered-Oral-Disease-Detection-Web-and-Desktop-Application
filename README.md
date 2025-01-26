@@ -31,14 +31,4 @@ This  application uses artificial intelligence to detect various oral diseases t
 - **Frontend**: HTML, CSS , Javascript
 - **Image Processing**: OpenCV
 - **Deep Learning**: PyTorch (via Ultralytics YOLO)
-- **Desktop **: PyQt6
-
-## Installation
-
-### Prerequisites
-- Python 3.8 or higher
-- pip package manager
-- Webcam (for real-time detection)
-
-### Setup
-1. Clone the repository 
+- **Desktop ** : PyQt6
