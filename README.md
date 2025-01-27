@@ -1,7 +1,7 @@
 # AI-Powered Oral Disease Detection System
 
 ## Overview
-This  application uses artificial intelligence to detect various oral diseases through image analysis and real-time webcam detection. Built with Flask and powered by YOLOv8, it provides instant detection of common oral health conditions.
+This  application uses artificial intelligence to detect various oral diseases through image analysis and real-time webcam detection. Built with Flask and powered by YOLOv11, it provides instant detection of common oral health conditions.
 
 ## Features
 - **Image Upload Detection**: Upload dental images for instant analysis
@@ -13,6 +13,9 @@ This  application uses artificial intelligence to detect various oral diseases t
   - Oral Ulcers
 - **Confidence Scoring**: Each detection includes a confidence percentage
 - **User-friendly Interface**: Clean and intuitive web interface
+- 
+## Demo
+[Watch the demo on YouTube](https://youtu.be/8oWegOZO9qQ)
 
 ## Web Application 
 ![App Screenshot](3.png)
@@ -27,7 +30,7 @@ This  application uses artificial intelligence to detect various oral diseases t
 
 ## Technologies Used
 - **Backend**: Python, Flask
-- **AI Model**: YOLOv8
+- **AI Model**: YOLOv11
 - **Frontend**: HTML, CSS , Javascript
 - **Image Processing**: OpenCV
 - **Deep Learning**: PyTorch (via Ultralytics YOLO)
